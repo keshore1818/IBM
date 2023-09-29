@@ -1,0 +1,16 @@
+Problem Definition:
+               Develop an AI-based spam classifier using Python to automatically identify and filter out unwanted spam emails from a given  dataset of messages. The goal is to create a robust and accurate spam detection system that improves the message experience for users and reduces the risk associated with malicious or unsolicited email content.
+
+Design Thinking:
+               1.Data Collection:
+			Collect a diverse dataset of emails, including both spam and non-spam (harm) emails.
+               2.Data Preprocessing:
+			Preprocess the email data, including text cleaning, tokenization, and feature extraction with the help of natural                   language toolkit module.
+	       3.Feature Extraction:
+                        Extract relevant features from the email content, such as text patterns, sender information, and metadata with the help of sklearn module and vectors.
+               4.Model Selection:
+                        Develop a user-friendly interface for the spam classifier, allowing users to submit more no of mails for classification.Deploy the model as a web service or integrate it into an mail client.MultinomialNB a naive bayes algorithm gives 96% accuracy.
+               5.Evaluation:
+                        Assess the model's performance using appropriate evaluation metrics.Implement cross-validation to ensure the model's generalizability and minimize overfitting with the help of determining the confusion matrix for the data.
+               6.Iterative improvement:
+    			Implement regular model updates to adapt to evolving spam techniques and new spam patterns.Collect user feedback to enhance the model's accuracy and effectiveness.
